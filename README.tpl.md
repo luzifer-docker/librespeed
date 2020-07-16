@@ -8,5 +8,7 @@ To use your own configuration file make it available in the container as `/etc/s
 
 ## Available configuration variables
 
+For reference please refer to the [config example](https://github.com/librespeed/speedtest-go/blob/master/settings.toml) in the upstream repo.
+
 | ENV Variable | Default Value |
 | ------------ | ------------- |
