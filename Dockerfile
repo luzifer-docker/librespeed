@@ -8,9 +8,8 @@ RUN set -ex \
  && apk add \
       curl \
       git \
- && git clone "https://github.com/librespeed/speedtest-go.git" /src \
+ && git clone -b "${VERSION}" --depth=1 "https://github.com/librespeed/speedtest-go.git" /src \
  && cd /src \
- && git reset --hard "${VERSION}" \
  && go build \
       -o speedtest \
       -mod=readonly \
