@@ -2,7 +2,7 @@ FROM golang:alpine as builder
 
 ENV GCO_ENABLED=0
 
-ARG VERSION=v1.0.1
+ARG VERSION=v1.1.0
 
 RUN set -ex \
  && apk add \
